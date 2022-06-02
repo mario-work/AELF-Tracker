@@ -6,6 +6,11 @@
   <hr>
 </div>
 
+## Inspiration
+
+It is very convenient to have a tool for tracking the balance of tokens of your own or other wallets, especially if the blockchain for which it was created has different networks, like AELF. This tracker allows you to track the balance of tokens in all networks: AELF and tDVV (Mainnet and Testnet) .
+
+------------
 
 ## Features:
 
