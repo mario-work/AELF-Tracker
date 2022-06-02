@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AELF Tracker</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <script src='resources/scripts/bundle.js'></script>
+  </head>
+
+  <body>
+    <main>
+
+      <nav id="nav">
+        <div class="nav-content">
+          <span id="menu-hamburger">
+            <span class="material-icons"> menu </span>
+          </span>
+
+          <span class="wallet"><a id="addNewWallet">No wallet, click to add</a></span>
+
+          <div id="networkIndicator"></div>
+        </div>
+      </nav>
+
+      <div id="overlay"> </div>
+
+      <div id="sidebar" class="">
+        <div id="sidebar_header">
+          <p>
+            <b>AELF Tracker</b><br>
+          </p>
+          <span id="close_sidebar"><i class="fa fa-times" aria-hidden="true"></i></span>
+        </div>
+
+        <div class="line"></div>
+        <img src="resources/images/logo.png" ><br>
+
+        <div id="walletsList"></div>
+      </div>
+
+      <div id="content">
+        <div class="main_block">
+          <h1 class="title">Balance</h1>
+          <p id="balance_total"><span id="one_balance">-</span> ELF</p>
+
+          <div id="refreshAndSort"></div>
+
+          <div id="listBlock">
+            
+            <ul id="listOfTokens">
+              <div class="lds-dual-ring"><div>
+            </ul>
+          </div>
+
+          <div id="showMoreBlock"></div>
+         
+        </div>
+      </div>
+
+      <div id="bottom_menu">
+        <div class="item active" data-id="balance">
+          <span class="material-icons material-icons">account_balance_wallet</span>
+        </div>
+        <div class="item " data-id="settings">
+          <span class="material-icons material-icons-round">settings</span>
+        </div>
+      </div>
+
+    </main>
+  </body>
+
+
+  <script src="popup.js"></script>
+  <script src="resources/scripts/fonts.js"></script>
+
+</html>
